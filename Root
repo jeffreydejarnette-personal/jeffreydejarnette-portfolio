@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jeffrey — Facility & Project Engineering Portfolio</title>
+  <meta name="description" content="Facility Project Manager candidate — end-to-end engineering, retrofits, cross-functional delivery, and operational excellence." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;      /* slate-900 */
+      --card: #111827;   /* gray-900 */
+      --text: #e5e7eb;   /* gray-200 */
+      --muted: #9ca3af;  /* gray-400 */
+      --accent: #60a5fa; /* blue-400 */
+      --accent-2: #34d399; /* green-400 */
+      --border: #1f2937; /* gray-800 */
+    }
+    * { box-sizing: border-box; }
+    html, body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { position: sticky; top:0; z-index:50; backdrop-filter: blur(10px); background: rgba(15,23,42,0.75); border-bottom: 1px solid var(--border); }
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+    .nav { display:flex; align-items:center; justify-content: space-between; height:64px; }
+    .brand { font-weight:700; letter-spacing:0.2px; }
+    .brand small { font-weight:600; color:var(--muted); display:block; font-size:12px; }
+    .menu a { margin-left:18px; font-weight:600; }
+    main { padding: 36px 0 64px; }
+    section { margin: 32px 0; }
+    .hero { display:grid; grid-template-columns: 1.1fr 0.9fr; gap:28px; align-items: center; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+    .chip { display:inline-block; padding:6px 10px; border:1px solid var(--border); border-radius:999px; color:var(--muted); margin: 2px 6px 2px 0; font-size:12px; }
+    h1 { font-size: 32px; margin: 0 0 10px; }
+    h2 { font-size: 24px; margin: 0 0 12px; }
+    h3 { font-size: 18px; margin: 0 0 8px; }
+    p { color: var(--text); line-height: 1.6; }
+    .muted { color: var(--muted); }
+    .grid { display:grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .grid-2 { display:grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .list { display:flex; flex-direction: column; gap: 12px; }
+    .tag { background: rgba(96,165,250,0.15); color: var(--accent); border: 1px solid rgba(96,165,250,0.35); padding:4px 8px; border-radius:8px; font-size:12px; margin-right:8px; }
+    .stat { display:flex; align-items:center; gap:10px; color: var(--muted); }
+    .stat strong { color: var(--text); }
+    .kpi { display:flex; gap: 16px; margin-top: 8px; flex-wrap: wrap; }
+    .press-item, .proj-item, .role-item, .skill-item, .review-item { border-top: 1px dashed var(--border); padding-top: 12px; }
+    .footer { border-top: 1px solid var(--border); padding: 28px 0; color: var(--muted); }
+    .cta { display:flex; gap:10px; flex-wrap: wrap; margin-top:14px; }
+    .btn { display:inline-block; padding:10px 14px; border-radius:10px; background: var(--accent); color: #0b1220; font-weight:700; border: 1px solid rgba(255,255,255,0.15); }
+    .btn.secondary { background: var(--accent-2); }
+    .dl { display:flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
+    .dl a { padding:8px 10px; border: 1px solid var(--border); border-radius: 8px; color: var(--text); }
+    .cols { display:grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .avatar { width: 100%; border-radius: 12px; border: 1px solid var(--border); }
+    @media (max-width: 900px) {
+      .hero, .grid, .grid-2, .cols { grid-template-columns: 1fr; }
+      header .menu { display:none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">
+        Jeffrey — Facility Project Manager Candidate
+        <small>Project engineering • retrofits • data center operations readiness</small>
+      </div>
+      <nav class="menu">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#press">Press</a>
+        <a href="#reviews">Annual reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="about" class="hero">
+      <div class="card">
+        <h1>Facility & Project Engineering, built for operational excellence</h1>
+        <p>I lead complex facility projects and technical portfolios from concept to commissioning. My work spans data-center-adjacent operations: electrical, mechanical, controls, and life-safety—anchored by disciplined schedules, budget control, and cross-functional delivery.</p>
+        <div class="kpi">
+          <div class="stat"><strong>12</strong> direct reports managed across 3 shifts</div>
+          <div class="stat"><strong>50+</strong> CNC/assembly assets overseen</div>
+          <div class="stat"><strong>100%</strong> on-time facility relocation & retrofit</div>
+        </div>
+        <div class="cta">
+          <a class="btn" href="#experience">View experience</a>
+          <a class="btn secondary" href="#press">See press & accolades</a>
+        </div>
+      </div>
+      <div class="card">
+        <!-- Optional headshot -->
+        <img class="avatar" src="headshot.jpg" alt="Jeffrey headshot (optional)" />
+        <p class="muted">Replace with your photo or remove. Keep images small for fast loads.</p>
+        <div>
+          <span class="chip">Microsoft Project</span>
+          <span class="chip">SolidWorks CAD</span>
+          <span class="chip">CMMS</span>
+          <span class="chip">Retrofit lifecycle</span>
+          <span class="chip">QA/QC & Commissioning</span>
+          <span class="chip">Vendor sourcing</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+      <div class="role-item">
+        <h3>Senior Project Engineer — Spalding Sports Equipment</h3>
+        <p class="muted">New product development, product evolution, and technical performance across backboard systems and inflates. Managed development calendars and cross-functional delivery under strict budgets and timelines.</p>
+        <div class="list">
+          <div>• Led facility closure and end-to-end relocation; retrofitted new site for three sports divisions (space, climate, utilities) with external vendors and internal stakeholders.</div>
+          <div>• Built layouts in SolidWorks; managed schedules in Microsoft Project; delivered on budget with documented commissioning and QA/QC.</div>
+          <div>• Directed CAD/BOM/prototyping and product analysis to improve reliability, manufacturability, and cost structure.</div>
+          <div>• Facilitated ECNs and controlled documentation turnover (record drawings, manuals, asset info).</div>
+          <div>• Coordinated supplier compliance on regulatory requirements and internal specs; supported IP expansion.</div>
+          <div>• Managed data coordinator and outside resources (design firms, lab techs, CAD designers).</div>
+        </div>
+      </div>
+
+      <div class="role-item">
+        <h3>Maintenance Superintendent — Automotive CNC Production Facility</h3>
+        <p class="muted">Operations leadership across 50+ CNC machining, quality processing, and assembly assets; reliability, safety, and performance focus.</p>
+        <div class="list">
+          <div>• Managed 12 technicians across 3 shifts; implemented team lead roles and increased staffing.</div>
+          <div>• Established preventive/predictive maintenance practices; sustained uptime while maintaining budgets at or below targets.</div>
+          <div>• Worked interdepartmentally and with vendors/contractors to deliver facility projects.</div>
+          <div>• Launched industrial training via SKYTC/WKU and off-site paid programs.</div>
+          <div>• Participated in Nemak North America Energy, Maintenance, and Safety Expert Teams.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills & core competencies</h2>
+      <div class="grid">
+        <div class="skill-item">
+          <h3>Project & facility management</h3>
+          <p class="muted">Relocations, retrofits, portfolio scheduling, risk & budget discipline.</p>
+        </div>
+        <div class="skill-item">
+          <h3>Engineering & CAD</h3>
+          <p class="muted">SolidWorks, layouts, BOMs, prototypes, manufacturability analysis.</p>
+        </div>
+        <div class="skill-item">
+          <h3>Operations & maintenance</h3>
+          <p class="muted">50+ CNC assets, CMMS, preventive/predictive programs.</p>
+        </div>
+        <div class="skill-item">
+          <h3>Safety & compliance</h3>
+          <p class="muted">QA/QC, commissioning, regulatory alignment, life-safety systems.</p>
+        </div>
+        <div class="skill-item">
+          <h3>Cross-functional leadership</h3>
+          <p class="muted">Vendors, contractors, sourcing, execs, engineering, H&S.</p>
+        </div>
+        <div class="skill-item">
+          <h3>Budget & sourcing</h3>
+          <p class="muted">CapEx, tooling/fixtures, cost control, vendor contracts.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div class="grid-2">
+        <div class="proj-item">
+          <h3>R&D facility relocation & retrofit</h3>
+          <p class="muted">Concept to commissioning: space planning, utilities, climate control, equipment installs, vendor coordination, QA/QC.</p>
+          <div class="tag">Microsoft Project</div><div class="tag">SolidWorks</div><div class="tag">QA/QC</div><div class="tag">Budget discipline</div>
+        </div>
+        <div class="proj-item">
+          <h3>Manufacturability & cost optimization</h3>
+          <p class="muted">Product analysis driving reliability, assembly efficiency, and cost reductions across backboards and inflates.</p>
+          <div class="tag">DFM/DFA</div><div class="tag">BOM control</div><div class="tag">Supplier compliance</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="press" class="card">
+      <h2>Press, awards, and external links</h2>
+      <p class="muted">Curated articles and links showcasing accomplishments.</p>
+      <div class="list">
+        <!-- Replace with real links -->
+        <div class="press-item">• <a href="https://example.com/article-1" target="_blank">Industry feature: Streamlined retrofit delivery for multi-sport R&D</a></div>
+        <div class="press-item">• <a href="https://example.com/article-2" target="_blank">Supplier spotlight: Compliance-first sourcing partnership</a></div>
+        <div class="press-item">• <a href="https://example.com/article-3" target="_blank">Interview: Cross-functional leadership in facility operations</a></div>
+      </div>
+    </section>
+
+    <section id="reviews" class="card">
+      <h2>Annual review highlights</h2>
+      <p class="muted">Performance comments presented like product reviews.</p>
+      <div class="grid-2">
+        <div class="review-item">
+          <h3>“Exceptional cross-functional coordination.”</h3>
+          <p class="muted">Delivered complex schedules and stakeholder alignment with consistent on-time outcomes.</p>
+        </div>
+        <div class="review-item">
+          <h3>“Technical depth with business rigor.”</h3>
+          <p class="muted">Balanced engineering excellence with cost control and risk management.</p>
+        </div>
+        <!-- Add more items or convert to real quotes -->
+      </div>
+      <div class="dl">
+        <!-- Attach PDFs or images of reviews -->
+        <a href="reviews/Jeffrey_AnnualReview_2023.pdf" target="_blank">Download: Annual Review 2023 (PDF)</a>
+        <a href="reviews/Jeffrey_AnnualReview_2022.pdf" target="_blank">Download: Annual Review 2022 (PDF)</a>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact & resume</h2>
+      <div class="cols">
+        <div>
+          <p><strong>Email:</strong> <a href="mailto:jeffrey@example.com">jeffrey@example.com</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></p>
+          <p><strong>Location:</strong> Chicago, IL</p>
+        </div>
+        <div>
+          <div class="dl">
+            <a href="docs/Jeffrey_Resume.pdf" target="_blank">Download resume (PDF)</a>
+            <a href="docs/Jeffrey_Portfolio.zip" target="_blank">Portfolio bundle (ZIP)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <div>© <span id="year"></span> Jeffrey. All rights reserved.</div>
+    <div class="muted">This site is intentionally simple for fast review and easy sharing.</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Optional: add simple analytics like a visit counter using localStorage
+    // const visits = +localStorage.getItem('visits') + 1; localStorage.setItem('visits', visits);
+  </script>
+</body>
+</html>
