@@ -188,9 +188,9 @@
       <p class="muted">Curated articles and links showcasing accomplishments.</p>
       <div class="list">
         <!-- Replace with real links -->
-        <div class="press-item">• <a href="https://example.com/article-1" target="_blank">Industry feature: Streamlined retrofit delivery for multi-sport R&D</a></div>
-        <div class="press-item">• <a href="https://example.com/article-2" target="_blank">Supplier spotlight: Compliance-first sourcing partnership</a></div>
-        <div class="press-item">• <a href="https://example.com/article-3" target="_blank">Interview: Cross-functional leadership in facility operations</a></div>
+        <div class="press-item">• <a href="https://www.wku.edu/ogden/news/index.php?view=article&articleid=2142&return=archive" target="_blank">ASME International Robotics Compeition</a></div>
+        <div class="press-item">• <a href="https://files.kaeser.com/current/us/b4l_122015/#page_4" target="_blank">Facility Management: Reliability</a></div>
+        <div class="press-item">• <a href="https://patents.justia.com/inventor/jeffrey-dejarnette" target="_blank">Patent List</a></div>
       </div>
     </section>
 
@@ -219,9 +219,9 @@
       <h2>Contact & resume</h2>
       <div class="cols">
         <div>
-          <p><strong>Email:</strong> <a href="mailto:jeffrey@example.com">jeffrey@example.com</a></p>
+          <p><strong>Email:</strong> <a href="mailto:jeffrey.dejarnette@gmail.com">jeffrey.dejarnette@gmail.com</a></p>
           <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></p>
-          <p><strong>Location:</strong> Chicago, IL</p>
+          <p><strong>Location:</strong> Bowling Green, KY</p>
         </div>
         <div>
           <div class="dl">
